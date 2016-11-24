@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smash Faces</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic'>
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Courgette'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+   <div class="container">
+       <h1>Smash Faces</h1>
+        <hr>
+        <div class="row">
+            <div class="col-xs-12">
+                <p>Bienvenidas al juego de Smash Faces, tu mison es poder identificar a todas tus companeras de clase ingresando par ellos su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-8">
+                <label for="sede">Elige tu sede:</label>
+                <select name="" id="">
+                    <option value="1" selected>Mexico</option>
+                    <option value="2">Lima</option>
+                    <option value="3">Chile</option>
+                </select>
+            </div>
+            <div class="col-xs-4">
+                <p>Puntos: 5puntos</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <div id="foto">
+                    <img src="" alt="" id="idFoto">
+                </div>
+            </div>
+            <div class="col-xs-8">
+                <label for="">Ingresa su nombre:</label>
+                <input type="text"/>
+                <button id="btnEnviar" onclick="verificar()">Comprobar</button>
+                <p id="mensaje"></p>
+            </div>
+        </div>
+   </div>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    
+    
+    
+    
+</body>
+</html>

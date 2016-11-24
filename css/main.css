@@ -1,0 +1,134 @@
+/*MENU*/
+nav.navbar{
+	background: #991848;	
+	border: #991848;
+}
+.txt-white{
+	color:white !important;
+}
+.black{
+    background-color: black;
+    padding: 30px 10px;
+}
+nav li a, nav a{
+	color:white !important;
+}
+.carrusel{
+    width: 400px !important;
+}
+.perfil{
+    background-image: url("../img/perro.jpg");
+    background-position: top;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10% 2%;
+    border: 4px solid yellow;
+}
+.logo{
+    background-image: url("../img/logo.jpg");
+    background-position: top;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 10% 2%;
+}
+.capa-img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 49, 48, 0.63);
+}
+/*CARRUSEL*/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  .carousel-inner img{
+  	/*width="460" height="345"*/
+  	height: 300px !important;
+  }
+/*Contacto*/
+.icono{
+    font-size: 50px;
+    color:#caf6f5;
+}
+/*background*/
+html body{
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 20px;
+}
+/*
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99;
+}*/
+.sect{
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.subSection{
+    height: 50%;
+    background-color: black;
+}
+.sec1{
+    background-image: url("../img/circuitos1.jpg");
+}
+.sec2{
+    background-image: url("../img/circuitos2.jpg");
+}
+.sec3{
+    background-image: url("../img/circuitos12.jpg");
+}
+
+
+#cover1{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#cover1:hover{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 100%;
+}
+.capa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(100,0,0,.7);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.capa:hover {
+    opacity: 1;
+}
+
+.backSec1{
+    background-color:rgba( 161, 226, 203, 0.65 );
+}
+.backSec2{
+    background-color: black;
+}
+.pd-skills{
+    padding-bottom: 35%;
+}
+
+p{
+    font-size: 20px;
+    margin: 10% 5%;
+}
+.jumbotron{
+    background-color:#67a5a5;
+}
